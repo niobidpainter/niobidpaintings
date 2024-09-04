@@ -1,10 +1,17 @@
 """
-You can add a multiline string
-not assigned to any variable
-literal, present, ignored
+within three markings
+multiline string contained, yours
+a trivial poem
 """
+# welcome
 import sys
-print(sys.version)
+print(f"you are now listening to Python {sys.version}")
+print("hellow worm\n")
 
-#hello worm! any last squirms?
-print("hellow worm")
+# awesome calculator. ask for values
+x = int(input("What is x? "))
+y = int(input("What is y? "))
+
+# add the values and print result
+for n in range(0, x*y):
+    print("hello world", end=" ")
