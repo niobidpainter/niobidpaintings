@@ -2,6 +2,7 @@
 name = input("What's your name? ")
 name = name.strip()
 
+
 # if some silly goose provides their name as a digit
 if name.isdigit() == True:
     print("H3ll0,", name + ", b33p b00p. I am a python script.")
@@ -16,6 +17,7 @@ else:
     print("I am text on the same line.")
 # adding the argument end = " " overrides the default end "\n" which would create a new line,
 # now ending with a space and placing the next print function next to the prev text.
+
 
 # format {name} as a string to print.
 print(f"\nwho are you, {name}, who am i to you?")
