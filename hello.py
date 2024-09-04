@@ -1,3 +1,11 @@
+"""
+This page can be a testing grounds.
+It already annoys me how these documents are same thing.
+That's okay. One day they will be different.
+And all these stupid early commits will become funny,
+someday.
+"""
+
 # refine name input
 name = input("What's your name? ")
 name = name.strip()
