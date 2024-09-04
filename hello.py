@@ -1,9 +1,9 @@
-# user inputs name
+# refine name input
 name = input("What's your name? ")
 name = name.strip()
 
 
-# if some silly goose provides their name as a digit
+# if some silly goose provides their name as an integer
 if name.isdigit() == True:
     print("H3ll0,", name + ", b33p b00p. I am a python script.")
 
